@@ -966,7 +966,7 @@ class _DropdownButtonState<T> extends State<CustomDropdownButton<T>>
               return;
             }
 
-            _dropdownRoute!.itemHeights[index] = size.height;
+            _dropdownRoute!.itemHeights[index] = 0;
           },
         ),
     ];
