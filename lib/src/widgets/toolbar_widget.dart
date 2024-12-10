@@ -65,10 +65,10 @@ class ToolbarWidgetState extends State<ToolbarWidget> {
   String _fontNameSelectedItem = 'sans-serif';
 
   /// Sets the selected item for the font size dropdown
-  double _fontSizeSelectedItem = 3;
+  double _fontSizeSelectedItem = 4;
 
   /// Keeps track of the current font size in px
-  double _actualFontSizeSelectedItem = 16;
+  double _actualFontSizeSelectedItem = 15;
 
   /// Sets the selected item for the font units dropdown
   String _fontSizeUnitSelectedItem = 'pt';
