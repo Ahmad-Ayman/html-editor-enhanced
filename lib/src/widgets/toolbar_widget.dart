@@ -734,7 +734,6 @@ class ToolbarWidgetState extends State<ToolbarWidget> {
                         child: Text(
                             "${_fontSizeUnitSelectedItem == "px" ? "12" : "9"} $_fontSizeUnitSelectedItem")),
                   ),
-
                   CustomDropdownMenuItem(
                     value: 3,
                     child: PointerInterceptor(
@@ -770,12 +769,14 @@ class ToolbarWidgetState extends State<ToolbarWidget> {
                     child: PointerInterceptor(
                         child: Text(
                             "${_fontSizeUnitSelectedItem == "px" ? "24" : "18"} $_fontSizeUnitSelectedItem")),
-                  ), CustomDropdownMenuItem(
+                  ),
+                  CustomDropdownMenuItem(
                     value: 9,
                     child: PointerInterceptor(
                         child: Text(
                             "${_fontSizeUnitSelectedItem == "px" ? "26" : "20"} $_fontSizeUnitSelectedItem")),
-                  ), CustomDropdownMenuItem(
+                  ),
+                  CustomDropdownMenuItem(
                     value: 10,
                     child: PointerInterceptor(
                         child: Text(
@@ -786,17 +787,20 @@ class ToolbarWidgetState extends State<ToolbarWidget> {
                     child: PointerInterceptor(
                         child: Text(
                             "${_fontSizeUnitSelectedItem == "px" ? "32" : "24"} $_fontSizeUnitSelectedItem")),
-                  ),CustomDropdownMenuItem(
+                  ),
+                  CustomDropdownMenuItem(
                     value: 12,
                     child: PointerInterceptor(
                         child: Text(
                             "${_fontSizeUnitSelectedItem == "px" ? "35" : "26"} $_fontSizeUnitSelectedItem")),
-                  ),CustomDropdownMenuItem(
+                  ),
+                  CustomDropdownMenuItem(
                     value: 13,
                     child: PointerInterceptor(
                         child: Text(
                             "${_fontSizeUnitSelectedItem == "px" ? "37" : "28"} $_fontSizeUnitSelectedItem")),
-                  ),CustomDropdownMenuItem(
+                  ),
+                  CustomDropdownMenuItem(
                     value: 14,
                     child: PointerInterceptor(
                         child: Text(
@@ -807,12 +811,14 @@ class ToolbarWidgetState extends State<ToolbarWidget> {
                     child: PointerInterceptor(
                         child: Text(
                             "${_fontSizeUnitSelectedItem == "px" ? "48" : "36"} $_fontSizeUnitSelectedItem")),
-                  ),CustomDropdownMenuItem(
+                  ),
+                  CustomDropdownMenuItem(
                     value: 16,
                     child: PointerInterceptor(
                         child: Text(
                             "${_fontSizeUnitSelectedItem == "px" ? "53" : "40"} $_fontSizeUnitSelectedItem")),
-                  ),CustomDropdownMenuItem(
+                  ),
+                  CustomDropdownMenuItem(
                     value: 17,
                     child: PointerInterceptor(
                         child: Text(
@@ -861,22 +867,61 @@ class ToolbarWidgetState extends State<ToolbarWidget> {
                           _actualFontSizeSelectedItem = 11;
                           break;
                         case 2:
-                          _actualFontSizeSelectedItem = 13;
+                          _actualFontSizeSelectedItem = 12;
                           break;
                         case 3:
-                          _actualFontSizeSelectedItem = 16;
+                          _actualFontSizeSelectedItem = 13;
                           break;
                         case 4:
-                          _actualFontSizeSelectedItem = 19;
+                          _actualFontSizeSelectedItem = 15;
                           break;
                         case 5:
-                          _actualFontSizeSelectedItem = 24;
+                          _actualFontSizeSelectedItem = 16;
                           break;
                         case 6:
-                          _actualFontSizeSelectedItem = 32;
+                          _actualFontSizeSelectedItem = 19;
                           break;
                         case 7:
+                          _actualFontSizeSelectedItem = 22;
+                          break;
+                        case 8:
+                          _actualFontSizeSelectedItem = 24;
+                          break;
+                        case 9:
+                          _actualFontSizeSelectedItem = 26;
+                          break;
+                        case 10:
+                          _actualFontSizeSelectedItem = 29;
+                          break;
+                        case 11:
+                          _actualFontSizeSelectedItem = 32;
+                          break;
+                        case 12:
+                          _actualFontSizeSelectedItem = 35;
+                          break;
+                        case 13:
+                          _actualFontSizeSelectedItem = 37;
+                          break;
+                        case 14:
+                          _actualFontSizeSelectedItem = 43;
+                          break;
+                        case 15:
                           _actualFontSizeSelectedItem = 48;
+                          break;
+                        case 16:
+                          _actualFontSizeSelectedItem = 53;
+                          break;
+                        case 17:
+                          _actualFontSizeSelectedItem = 59;
+                          break;
+                        case 18:
+                          _actualFontSizeSelectedItem = 64;
+                          break;
+                        case 19:
+                          _actualFontSizeSelectedItem = 75;
+                          break;
+                        case 20:
+                          _actualFontSizeSelectedItem = 96;
                           break;
                       }
                       widget.controller.execCommand('fontSize',
@@ -1192,7 +1237,8 @@ class ToolbarWidgetState extends State<ToolbarWidget> {
                               newColor = color;
                             },
                             title: Text('Choose a Color',
-                                style: Theme.of(context).textTheme.headlineSmall),
+                                style:
+                                    Theme.of(context).textTheme.headlineSmall),
                             width: 40,
                             height: 40,
                             spacing: 0,
