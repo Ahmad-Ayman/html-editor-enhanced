@@ -732,37 +732,109 @@ class ToolbarWidgetState extends State<ToolbarWidget> {
                     value: 2,
                     child: PointerInterceptor(
                         child: Text(
-                            "${_fontSizeUnitSelectedItem == "px" ? "13" : "10"} $_fontSizeUnitSelectedItem")),
+                            "${_fontSizeUnitSelectedItem == "px" ? "12" : "9"} $_fontSizeUnitSelectedItem")),
                   ),
+
                   CustomDropdownMenuItem(
                     value: 3,
                     child: PointerInterceptor(
                         child: Text(
-                            "${_fontSizeUnitSelectedItem == "px" ? "16" : "12"} $_fontSizeUnitSelectedItem")),
+                            "${_fontSizeUnitSelectedItem == "px" ? "13" : "10"} $_fontSizeUnitSelectedItem")),
                   ),
                   CustomDropdownMenuItem(
                     value: 4,
                     child: PointerInterceptor(
                         child: Text(
-                            "${_fontSizeUnitSelectedItem == "px" ? "19" : "14"} $_fontSizeUnitSelectedItem")),
+                            "${_fontSizeUnitSelectedItem == "px" ? "15" : "11"} $_fontSizeUnitSelectedItem")),
                   ),
                   CustomDropdownMenuItem(
                     value: 5,
                     child: PointerInterceptor(
                         child: Text(
-                            "${_fontSizeUnitSelectedItem == "px" ? "24" : "18"} $_fontSizeUnitSelectedItem")),
+                            "${_fontSizeUnitSelectedItem == "px" ? "16" : "12"} $_fontSizeUnitSelectedItem")),
                   ),
                   CustomDropdownMenuItem(
                     value: 6,
                     child: PointerInterceptor(
                         child: Text(
-                            "${_fontSizeUnitSelectedItem == "px" ? "32" : "24"} $_fontSizeUnitSelectedItem")),
+                            "${_fontSizeUnitSelectedItem == "px" ? "19" : "14"} $_fontSizeUnitSelectedItem")),
                   ),
                   CustomDropdownMenuItem(
                     value: 7,
                     child: PointerInterceptor(
                         child: Text(
+                            "${_fontSizeUnitSelectedItem == "px" ? "22" : "16"} $_fontSizeUnitSelectedItem")),
+                  ),
+                  CustomDropdownMenuItem(
+                    value: 8,
+                    child: PointerInterceptor(
+                        child: Text(
+                            "${_fontSizeUnitSelectedItem == "px" ? "24" : "18"} $_fontSizeUnitSelectedItem")),
+                  ), CustomDropdownMenuItem(
+                    value: 9,
+                    child: PointerInterceptor(
+                        child: Text(
+                            "${_fontSizeUnitSelectedItem == "px" ? "26" : "20"} $_fontSizeUnitSelectedItem")),
+                  ), CustomDropdownMenuItem(
+                    value: 10,
+                    child: PointerInterceptor(
+                        child: Text(
+                            "${_fontSizeUnitSelectedItem == "px" ? "29" : "22"} $_fontSizeUnitSelectedItem")),
+                  ),
+                  CustomDropdownMenuItem(
+                    value: 11,
+                    child: PointerInterceptor(
+                        child: Text(
+                            "${_fontSizeUnitSelectedItem == "px" ? "32" : "24"} $_fontSizeUnitSelectedItem")),
+                  ),CustomDropdownMenuItem(
+                    value: 12,
+                    child: PointerInterceptor(
+                        child: Text(
+                            "${_fontSizeUnitSelectedItem == "px" ? "35" : "26"} $_fontSizeUnitSelectedItem")),
+                  ),CustomDropdownMenuItem(
+                    value: 13,
+                    child: PointerInterceptor(
+                        child: Text(
+                            "${_fontSizeUnitSelectedItem == "px" ? "37" : "28"} $_fontSizeUnitSelectedItem")),
+                  ),CustomDropdownMenuItem(
+                    value: 14,
+                    child: PointerInterceptor(
+                        child: Text(
+                            "${_fontSizeUnitSelectedItem == "px" ? "43" : "32"} $_fontSizeUnitSelectedItem")),
+                  ),
+                  CustomDropdownMenuItem(
+                    value: 15,
+                    child: PointerInterceptor(
+                        child: Text(
                             "${_fontSizeUnitSelectedItem == "px" ? "48" : "36"} $_fontSizeUnitSelectedItem")),
+                  ),CustomDropdownMenuItem(
+                    value: 16,
+                    child: PointerInterceptor(
+                        child: Text(
+                            "${_fontSizeUnitSelectedItem == "px" ? "53" : "40"} $_fontSizeUnitSelectedItem")),
+                  ),CustomDropdownMenuItem(
+                    value: 17,
+                    child: PointerInterceptor(
+                        child: Text(
+                            "${_fontSizeUnitSelectedItem == "px" ? "59" : "44"} $_fontSizeUnitSelectedItem")),
+                  ),
+                  CustomDropdownMenuItem(
+                    value: 18,
+                    child: PointerInterceptor(
+                        child: Text(
+                            "${_fontSizeUnitSelectedItem == "px" ? "64" : "48"} $_fontSizeUnitSelectedItem")),
+                  ),
+                  CustomDropdownMenuItem(
+                    value: 19,
+                    child: PointerInterceptor(
+                        child: Text(
+                            "${_fontSizeUnitSelectedItem == "px" ? "75" : "56"} $_fontSizeUnitSelectedItem")),
+                  ),
+                  CustomDropdownMenuItem(
+                    value: 20,
+                    child: PointerInterceptor(
+                        child: Text(
+                            "${_fontSizeUnitSelectedItem == "px" ? "96" : "72"} $_fontSizeUnitSelectedItem")),
                   ),
                 ],
                 value: _fontSizeSelectedItem,
